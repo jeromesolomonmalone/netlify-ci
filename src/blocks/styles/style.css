@@ -539,6 +539,7 @@ iframe {
   font-size: 17px;
   line-height: var(--m-lh);
   counter-increment: trends__text;
+  color: var(--main-text-color);
 }
 
 .trends__text::before {
@@ -680,6 +681,13 @@ iframe {
   height: 100%;
   background: url(https://i.postimg.cc/vBZGsbMH/icons8-64-1.png) 50% 50% / auto
     25% no-repeat;
+  cursor: pointer;
+}
+
+.footer__search:active,
+.footer__search:focus,
+.footer__search:focus-visible {
+  outline: none;
 }
 
 .footer__right {
